@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self' https://*.tile.openstreetmap.org/ https://*.openstreetmap.org/ 'unsafe-inline' 'unsafe-eval'; img-src 'self' data: https://*.tile.openstreetmap.org/ https://*.openstreetmap.org/; style-src 'self' 'unsafe-inline' https://unpkg.com/leaflet@1.7.1/dist/leaflet.css;">
+    <title>Historical Sites</title>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+    <style>
+        #map { 
+            height: 100vh; 
+            width: 100vw; 
+        }
+    </style>
+</head>
+<body>
+    <div id="map"></div>
+    <script src="cordova.js"></script>
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+    <script src="js/index.js"></script>
+</body>
+</html>
