@@ -30,6 +30,20 @@ Deployment:
 - Dockerized containers for both frontend and backend.
 - Hosted on AWS EC2 with domain mapping using Namecheap.
 
+Setup
+
+- git clone
+- go into backend
+- pip install -r requirements.txt
+- python manage.py makemigrations
+- python manage.py migrate
+- python manage.py runserver
+
+frontend
+- go into frontend
+- npm install
+- npm start
+
 
 
  docker image repo link https://hub.docker.com/r/ericob96/historic-sites-web/tags
