@@ -27,7 +27,7 @@ SECRET_KEY = 'django-insecure-!$x41nedhcmcqyjyb#lzntmy$s8f27x-%glcyvxx-($ohpkcgi
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ['*','parkfinder.xyz', 'www.parkfinder.xyz']
 
 CORS_ORIGIN_ALLOW_ALL = True
 
